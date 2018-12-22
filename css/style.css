@@ -1,0 +1,80 @@
+body {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-image: url(../tlo.jpg);
+}
+
+#mapWrapper {
+    width: 70%;
+    height: 98vh;
+    border: solid #008000 2px;
+    display: table;
+    float: left;
+}
+
+#mapData {
+    width: 29%;
+    float: right;
+    border: solid #fbff0e 2px;
+    height: 98vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#mapDataWrapper{
+    height: 100%;
+    border: solid #0ef70e 2px;
+}
+
+#googleMapsDiv {
+
+    border: solid blue 2px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+#content {
+    width: 100%;
+}
+
+.display-2 {
+    font-size: 300%;
+}
+
+#weatherDetailsFromPhp {
+    font-size: 200%;
+    text-align: center;
+    border: solid #ff0eeb 2px;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    padding: 15px;
+}
+
+#countryDetailsFromPhp {
+    font-size: 200%;
+    text-align: center;
+    border: solid #0ef7ff 2px;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    padding: 15px;
+    /* height: 100%; */
+}
+
+#coordinates {
+    font-size: 50% !important;
+}
+
+.flag {
+    /* width: 400px;
+    height: auto; */
+}
+
+.special{
+    color: #fbff0e;
+}
+
+.small{
+    font-size: 24px;
+}
